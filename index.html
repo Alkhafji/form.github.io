@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form| Shadan</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<center>
+<body >
+
+
+    <form action=" "> 
+    <div class="container">
+          <header >
+        <h1 class="main" >Register &reg; </h1>
+<marquee style="color:darkcyan"><h3  class="main_1" >Please fill your information in this form </h3></marquee>
+     </header>
+    <!--FIRST  NAME & LAST NAME INPUT-->
+       <fieldset>
+    <p> First Name *  <input type="text" required placeholder="Enter your First Name" >
+        <br>
+        <br>
+     Last Name *  <input type="text" required placeholder="Enter your Last Name" ></p>
+    </fieldset>
+   <br>
+    <!--Date of Birth-->
+    <fieldset>
+   <p>Date Of Birth: <input type="date" id="birthday" name="birthday"></p>
+</fieldset>
+   <br>
+   <!--E-MAIL INPUT-->
+   <fieldset>
+    <legend>Contacts</legend>
+    <p>Enter your Email:             <input type="email" id="email" name="email">
+    <br>
+    <br>
+    <!--TELEPHONE INPUT-->
+    Enter contact no.: <input type="tel" id="phone" name="phone" placeholder="+91-" pattern="+91-" required></p>
+    </fieldset>
+    <br>
+<!--ADDRESS INPUT-->
+<Address>
+      Address :
+        <textarea name="Address" id="address" cols="20" rows="3"></textarea>
+</Address>
+<br>
+   <fieldset>
+        <legend>Gender</legend>
+    <input type="radio" id="male" name="gender" value="MALE"><label for="male"><i> Male</i></label>
+    <input type="radio" id="female" name="gender" value="FEMALE"><label for="female"><i>Female</i> </label>
+</fieldset>
+<br>
+    <fieldset>
+    <legend>Languages Known</legend>
+     <input type="checkbox" id="Hindi" name="Hindi" Value="HINDI" ><label for="Hindi"> <i>Hindi</i> </label>
+    <input type="checkbox" id="English" name="English" Value="English" ><label for="English"><i>English</i> </label>
+    <input type="checkbox" id="Marathi" name="Marathi" Value="Marathi" ><label for="Marathi"><i>Marathi</i> </label>
+</fieldset>
+
+<br>
+
+   <p> City :    <select name="City" id="City" width="500">
+    <option value="Select">Select</option>
+    <option value="Delhi">Delhi</option>
+    <option value="Kolkata">Kolkata</option>
+    <option value="Chennai">Chennai</option>
+    <option value="Mumbai">Mumbai</option>
+</select> </p>
+    <br>
+    <label for="State">State</label>            <select name="State" id="State" width="500">
+        <option value="Select">Select</option>
+    <option value="Andhra Pradesh">Andhra Pradesh</option>
+    <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+    <option value="Assam">Assam</option>
+    <option value="Bihar">Bihar</option>
+    <option value="Chandigarh">Chandigarh</option>
+    <option value="Chhattisgarh">Chhattisgarh</option>
+    <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+    <option value="Daman and Diu">Daman and Diu</option>
+    <option value="Delhi">Delhi</option>
+    <option value="Lakshadweep">Lakshadweep</option>
+    <option value="Puducherry">Puducherry</option>
+    <option value="Goa">Goa</option>
+    <option value="Gujarat">Gujarat</option>
+    <option value="Haryana">Haryana</option>
+    <option value="Himachal Pradesh">Himachal Pradesh</option>
+    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+    <option value="Jharkhand">Jharkhand</option>
+    <option value="Karnataka">Karnataka</option>
+    <option value="Kerala">Kerala</option>
+    <option value="Madhya Pradesh">Madhya Pradesh</option>
+    <option value="Maharashtra">Maharashtra</option>
+    <option value="Manipur">Manipur</option>
+    <option value="Meghalaya">Meghalaya</option>
+    <option value="Mizoram">Mizoram</option>
+    <option value="Nagaland">Nagaland</option>
+    <option value="Odisha">Odisha</option>
+    <option value="Punjab">Punjab</option>
+    <option value="Rajasthan">Rajasthan</option>
+    <option value="Sikkim">Sikkim</option>
+    <option value="Tamil Nadu">Tamil Nadu</option>
+    <option value="Telangana">Telangana</option>
+    <option value="Tripura">Tripura</option>
+    <option value="Uttar Pradesh">Uttar Pradesh</option>
+    <option value="Uttarakhand">Uttarakhand</option>
+    <option value="West Bengal">West Bengal</option>
+    </select>
+    <br>
+    
+<p> Upload Photo: <input type="file" id="myFile" name="filename"></p>
+
+<br>
+<footer>
+    
+<button class="but"
+type="submit"  value="Submit">Submit</button>
+</footer>
+</div>
+</form>
+</body>
+</center>
+</html>
